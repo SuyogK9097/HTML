@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event feedback survey</h1>
+    <form action="submit event feedback" method="post">
+        <label for="event name">Event name</label>
+        <input type="text" name="event name" id="event name">
+        <br>
+        <br> 
+        <label for="Your name">Your Name</label>
+        <input type="text" name="Your name" id="Your name">
+        <br>
+        <br>
+        <label for="rating">overall rating</label>
+        <select name="reting" id="rating">
+            <option value="good">good</option>
+            <option value="medi">medium</option>
+            <option value="bad">bad</option>
+        </select>
+        <br>
+        <br>
+        <div>
+            recomind this event
+            <br>
+            <br>
+            <label for="yes">yes</label>
+
+            <input type="radio" name="yes" id="yes">
+            <label for="no">no</label>
+            <input type="radio" name="no" id="no">
+        </div>
+        <br>
+        <label for="text ">aditional comments</label>
+        <br>
+
+        <textarea name="text" id="text"></textarea>
+<br>
+<br>
+        <button type="submit">submit</button>
+        
+    </form>
+    <hr>
+    <h1>Satisfaction Survey</h1>
+    <label for="name">Employee name</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <br>
+    <label for="Department">Department name</label>
+    
+    <input type="text" name="Department" id="Department">
+    <br>
+    <br>
+    How Satisfied you are with this job
+    <br>
+    <input type="radio" name="" id="good">
+    <label for="good">good</label>
+    
+    <br>
+    <input type="radio" name="" id="medium">
+    <label for="medium">medium</label>
+    
+    <br>
+    <input type="radio" name="" id="bad">
+    
+    <label for="bad">bad</label>
+    <br>
+    <br>
+    <label for="ratework">rate work environment </label>
+    <select name="ratework" id="ratework">
+        <option value="good">good</option>
+        <option value="medium">madium</option>
+        <option value="bad">bad</option>
+    </select>
+    <br><br>
+    <label for="cc">add comments</label>
+    <br>
+    <textarea name="cc" id="cc"></textarea>
+    <br><br>
+    <button type="submit">submit</button>
+    
+</body>
+</html>
