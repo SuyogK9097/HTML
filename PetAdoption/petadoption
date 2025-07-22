@@ -1,1 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pet Adoption Application</h1>
+    <img src="https://img.freepik.com/free-photo/shallow-focus-vertical-shot-cute-golden-retriever-puppy-sitting-grass-ground_181624-27259.jpg?w=360" alt="puppy images" height="250" width="200">
+    <br><br>
+    <fieldset >
+        <legend>Personal Information</legend>
+        <form >
+            <label for="name">Enter Your Name </label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="name">Enter Your Email </label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="name">Enter Phone Number </label>
+            <input type="text" name="name" id="name">
 
+
+
+        </form>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Pet Preferance</legend>
+        <form action="">
+            <label for="select">Type of Pet</label>
+            <select name="" id="select">
+                <option value="Small Dog"> Small Dog</option>
+                <option value="medium Dog">medium Dog</option>
+                <option value="Big Dog">Big Dog</option>
+                <option value="Cat">Cat</option>
+            </select>
+            <br>
+            <br>
+            Age Range
+            <br>
+            <input type="radio" name="Young" id="Young">
+            <label for="Young">Young</label>
+            <br>
+            <input type="radio" name="Adult" id="Adult">
+            <label for="Adult">Adult</label>
+            <br>
+            <input type="radio" name="Senior" id="Senior">
+            <label for="Senior">Senior</label>
+            <br>
+            <br>
+            Why do you want Adopt A Pet?
+            <br>
+            <textarea name="" id=""></textarea>
+            
+        </form>
+    </fieldset>
+    <br>
+    <button type="submit">Submit Application</button>
+    <button type="reset"> Reset</button>
+    <hr>
+    <br>
+    <br>
+    <h1>Watch A puppy Video</h1>
+    <video src="puppy.mp4" width="350" controls autoplay loop ></video>
+
+
+</body>
+</html>
