@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookiesRecipe</title>
+</head>
+<body>
+    <h1>Chocolate Chip Cookies Recipe </h1>
+    <img src="https://cdn.loveandlemons.com/wp-content/uploads/2024/08/chocolate-chip-cookies.jpg" alt="Cookie Image" height="350" width="300">
+    <h2>Ingredients</h2>
+    <ul >
+        <li>1 cup unsolted butter </li>
+        <li>1 cup sugar </li>
+        <li>1 cup brown sugar </li>
+        <li>2 teaspoon vanilla extract </li>
+        <li>3 cups of all purpose flour </li>
+        <li>1 teaspoon baking sode </li>
+        <li>1/2 teaspoon baking power </li>
+        <li>1/2 teaspoon Salt </li>
+        <li>2 cups semi sweet chocolate chips</li>
+    </ul>
+    <h2>Instrucions</h2>
+    <ol>
+        <li>preheat the oven </li>
+        <li>step  2</li>
+        <li>step  3</li>
+        <li>step  4</li>
+        <li>step  5</li>
+    </ol>
+    <h2>Note</h2>
+    <p>whatever the note is </p>
+    
+    
+</body>
+</html>
